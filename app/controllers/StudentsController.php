@@ -23,7 +23,7 @@ class StudentsController extends Controller {
         }
 
         // Get current page (default 1)
-        $page = 1;
+        $page = 5;
         if(isset($_GET['page']) && ! empty($_GET['page'])) {
             $page = $this->io->get('page');
         }
